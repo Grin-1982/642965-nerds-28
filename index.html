@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet"> 
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="center">
+      <nav class="menu">
+        <a class="menu__logo" href="#">
+          <span class="visually-hidden">Нёрдс</span>
+        </a>
+        <ul class="menu__items">
+          <li class="menu__item">
+            <a href="#">студия</a>
+          </li>
+          <li class="menu__item">
+            <a href="#">клиенты</a>
+          </li>
+          <li class="menu__item">
+            <a href="#">магазин</a>
+          </li>
+          <li class="menu__item">
+            <a href="#">контакты</a>
+          </li>
+        </ul>
+        <ul class="menu__cart">
+          <li class="menu__item">
+            <a class="cart__link" href="#">корзина</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="slider">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
+        <input class="visually-hidden" type="radio" id="product-2" name="toggle">
+        <input class="visually-hidden" type="radio" id="product-3" name="toggle">
+        <div class="slider__buttons">
+          <label class="slider__button slider__button--1" for="product-1">Слайд 1</label> 
+          <label class="slider__button slider__button--2" for="product-2">Слайд 2</label>
+          <label class="slider__button slider__button--3" for="product-3">Слайд 3</label>  
+        </div>
+        <ul class="slider__items">
+          <li class="slider__item">
+            <h3 class="slider__title slider__title--slide1">Долго, дорого, скрупулезно.</h3>
+            <p class="slider__paragraph slider__paragraph--1">Математически выверенный дизайн</p> 
+            <p class="slider__paragraph slider__paragraph--2">для вашего сайта или мобильного приложения.</p>
+            <a class="slider__link" href="#">узнать больше</a>
+          </li>
+          <li class="slider__item">
+            <h3 class="slider__title slider__title--slide2">Любим математику как никто другой</h3>
+            <p class="slider__paragraph slider__paragraph--1">Никакого креатива, только математические формулы</p>
+            <p class="slider__paragraph slider__paragraph--2">для расчета идеальных пропорций.</p>
+            <a class="slider__link" href="#">узнать больше</a>
+          </li>
+          <li class="slider__item">
+            <h3 class="slider__title slider__title--slide3">Только ночь, только хардкор</h3>
+            <p class="slider__paragraph slider__paragraph--1">Работать днем, как все? Мы против этого.</p>
+            <p class="slider__paragraph slider__paragraph--2">Ближе к полуночи работа только начинается.</p>
+            <a class="slider__link" href="#">узнать больше</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </header>
+  <main>
+    
+  </main>
+  <footer>
+    
+  </footer>
+</body>
 </html>
